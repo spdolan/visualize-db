@@ -14,7 +14,7 @@ This repository contains the necessary JAR files to utilize [SchemaSpy](http://s
 
 ### Steps
 
-1. Copy [example file](./schemaspy.properties.example) into a file called `schemaspy.properties`, and update with your preferred configuration.
+1. After cloning repository, copy [example file](./schemaspy.properties.example) into a file called `schemaspy.properties`, and update with your preferred configuration.
   - Alternatively, when executing, specify the file path using the command flag `-configFile filePath`.
   - Complete list of [SchemaSpy command line arguments](https://schemaspy.readthedocs.io/en/latest/configuration/commandline.html#commandline)
 1. Ensure that your target database is running.
