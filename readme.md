@@ -15,8 +15,8 @@ This repository contains the necessary JAR files to utilize [SchemaSpy](http://s
 ### Steps
 
 1. After cloning repository, copy [example file](./schemaspy.properties.example) into a file called `schemaspy.properties`, and update with your preferred configuration.
-  - Alternatively, when executing, specify the file path using the command flag `-configFile filePath`.
-  - Complete list of [SchemaSpy command line arguments](https://schemaspy.readthedocs.io/en/latest/configuration/commandline.html#commandline)
+  1. Alternatively, when executing, specify the file path using the command flag `-configFile filePath`.
+  1. Complete list of [SchemaSpy command line arguments](https://schemaspy.readthedocs.io/en/latest/configuration/commandline.html#commandline)
 1. Ensure that your target database is running.
 1. Execute `java -jar schemaspy-6.1.0.jar` within your local clone of this repository.
 1. Open output/index.html within your preferred browser or HTML application.
